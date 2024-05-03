@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\CollisionDetection.cs" />
     <Compile Include="BL\DiagonalMovement.cs" />
     <Compile Include="BL\Game.cs" />
     <Compile Include="BL\GameObject.cs" />
