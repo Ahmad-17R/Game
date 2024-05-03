@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GameDLL">
+    <Reference Include="GameDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\GameDLL\GameDLL\bin\Debug\GameDLL.dll</HintPath>
     </Reference>
     <Reference Include="System" />

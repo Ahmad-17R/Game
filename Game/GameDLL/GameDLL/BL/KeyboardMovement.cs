@@ -14,6 +14,8 @@ namespace GameDLL.BL
         private int Speed;
         private  System.Drawing.Point boundary;
         private int offset;
+        private int health;
+
 
         public KeyboardMovement(int Speed, System.Drawing.Point boundary,int offset)
         {
