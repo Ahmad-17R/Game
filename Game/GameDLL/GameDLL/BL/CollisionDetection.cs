@@ -8,6 +8,10 @@ namespace GameDLL.BL
 {
     public class CollisionDetection
     {
-        //public bool isCollided
+        
+        public CollisionDetection(ObjectType type1,ObjectType type2,GameObjectAction action) 
+        {
+        
+        }
     }
 }

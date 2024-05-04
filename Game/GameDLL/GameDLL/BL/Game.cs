@@ -14,6 +14,7 @@ namespace GameDLL.BL
     {
         List<GameObject> gameObjectList ;
         Form container;
+        List<CollisionDetection> collisions;
 
         public Game(Form container)
         {

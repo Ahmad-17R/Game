@@ -51,6 +51,7 @@
     <Compile Include="BL\Factorypattern.cs" />
     <Compile Include="BL\Game.cs" />
     <Compile Include="BL\GameObject.cs" />
+    <Compile Include="BL\GameObjectAction.cs" />
     <Compile Include="BL\HorizontalMovement.cs" />
     <Compile Include="BL\KeyboardMovement.cs" />
     <Compile Include="BL\ObjectType.cs" />

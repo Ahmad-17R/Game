@@ -3,14 +3,8 @@
   "WorkspaceRootPath": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63EB532E-C4B5-463B-B89A-5D2F79EA3FDC}|..\\GameDLL\\GameDLL\\GameDLL.csproj|d:\\university\\oop\\semester project\\2023-cs-69\\game\\game\\gamedll\\gamedll\\bl\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|solutionrelative:mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63EB532E-C4B5-463B-B89A-5D2F79EA3FDC}|..\\GameDLL\\GameDLL\\GameDLL.csproj|d:\\university\\oop\\semester project\\2023-cs-69\\game\\game\\gamedll\\gamedll\\bl\\collisiondetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -29,45 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\GameDLL\\GameDLL\\BL\\GameObject.cs",
-              "RelativeDocumentMoniker": "..\\GameDLL\\GameDLL\\BL\\GameObject.cs",
-              "ToolTip": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\GameDLL\\GameDLL\\BL\\GameObject.cs",
-              "RelativeToolTip": "..\\GameDLL\\GameDLL\\BL\\GameObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T06:27:07.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CollisionDetection.cs",
-              "DocumentMoniker": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\GameDLL\\GameDLL\\BL\\CollisionDetection.cs",
-              "RelativeDocumentMoniker": "..\\GameDLL\\GameDLL\\BL\\CollisionDetection.cs",
-              "ToolTip": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\GameDLL\\GameDLL\\BL\\CollisionDetection.cs",
-              "RelativeToolTip": "..\\GameDLL\\GameDLL\\BL\\CollisionDetection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T06:07:11.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\Mygame\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "Mygame\\UI\\Form1.cs",
               "ToolTip": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\Mygame\\UI\\Form1.cs",
               "RelativeToolTip": "Mygame\\UI\\Form1.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAUwBoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T07:28:27.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\Mygame\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "Mygame\\UI\\Form1.cs",
