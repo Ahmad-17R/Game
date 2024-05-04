@@ -15,8 +15,9 @@ namespace GameDLL.BL
         PictureBox pictureBox;
         Move controller;
         private static GameObject ObjectInstance;
-
-        private GameObject(Image img,int left,int top, Move controller,ObjectType type)
+        private ObjectType objectType;
+        public int health;
+        private GameObject(Image img,int left,int top, Move controller,ObjectType type,int health)
         {
             pictureBox = new PictureBox();
             pictureBox.Image = img;
@@ -24,18 +25,20 @@ namespace GameDLL.BL
             pictureBox.Left = left;
             pictureBox.Top = top;
             this.controller = controller;
+            this.objectType = type;
+            this.health = health;
             SetObjectType(type);
         }
 
-        public static GameObject CreateGameObject(Image img, int left, int top, Move controller, ObjectType type)
+        public static GameObject CreateGameObject(Image img, int left, int top, Move controller, ObjectType type,int health)
         {
-            if(type==ObjectType.player && Factorypattern.GetPlayers() < 1)
+            if(type==ObjectType.player && Factorypattern.Players < 1)
             {
-                ObjectInstance = new GameObject(img,  left,  top,  controller,  type);
+                ObjectInstance = new GameObject(img,  left,  top,  controller,  type,health);
             }
-            else if (type == ObjectType.enemy && Factorypattern.GetPlayers() < 3)
+            else if (type == ObjectType.enemy && Factorypattern.Enemies < 3)
             {
-                ObjectInstance = new GameObject(img, left, top, controller, type);
+                ObjectInstance = new GameObject(img, left, top, controller, type, health);
             }
             return ObjectInstance;
         }
@@ -65,6 +68,21 @@ namespace GameDLL.BL
             {
 
             }
+        }
+
+        public ObjectType getObjectType()
+        {
+            return objectType;
+        }
+
+        public void Sethealth(int health)
+        {
+            this.health= health;
+        }
+
+        public int getHealth()
+        {
+            return this.health;
         }
     }
 }

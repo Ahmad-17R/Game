@@ -12,7 +12,7 @@ namespace GameDLL.BL
 {
     public class Game
     {
-        List<GameObject> gameObjectList ;
+        List<GameObject> gameObjectList;
         Form container;
         List<CollisionDetection> collisions;
 
@@ -20,6 +20,7 @@ namespace GameDLL.BL
         {
             this.gameObjectList = new List<GameObject>();
             this.container = container;
+            collisions = new List<CollisionDetection>();
         }
 
         public void AddGameObjects(GameObject myobject)
@@ -34,9 +35,38 @@ namespace GameDLL.BL
             foreach (GameObject gameObject in gameObjectList)
             {
                 gameObject.update();
+               
+            }
+            CheckCollisions();
+        }
+
+        public void CheckCollisions()
+        {
+            foreach (GameObject GO in gameObjectList)
+            {
+                if (GO.getObjectType() == ObjectType.player)
+                {
+
+                    foreach (GameObject GO1 in gameObjectList)
+                    {
+                        if (GO1.getObjectType() == ObjectType.enemy)
+                        {
+
+                            if (CollisionDetection.IsCollided(GO, GO1))
+                            {
+                                CollisionDetection cd = new CollisionDetection(GO, GO1);
+                                collisions.Add(cd);
+                                GO.health-=10;
+                            }
+                        }
+                    }
+                }
             }
         }
 
-
+        public List<CollisionDetection> getlist()
+        {
+            return this.collisions;
+        }
     }
 }

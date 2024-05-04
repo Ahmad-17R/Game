@@ -30,10 +30,10 @@ namespace Mygame
         {
              game = new Game(this);  
             Point boundary=new Point(this.Width,this.Height);
-            GameObject Verticalenemy = new GameObject(Resources.enemy1, 1155, 10, new VerticalMovement(8, boundary,"down",190));
-            GameObject Horizontalenemy = new GameObject(Resources.enemy2, 110, 10, new HorizontalMovement(8, boundary, "right",250));
-            GameObject ZigZagEnenmy = new GameObject(Resources.enemy1, 300, 375, new DiagonalMovement(8, boundary, "right", 250));
-            GameObject player = new GameObject(Resources.mytank2,200,50,new KeyboardMovement(15,boundary,180));
+            GameObject Verticalenemy = GameObject.CreateGameObject(Resources.enemy1, 1155, 10, new VerticalMovement(8, boundary, Directions.down, 190),ObjectType.enemy, 100);
+            GameObject Horizontalenemy = GameObject.CreateGameObject(Resources.enemy2, 110, 10, new HorizontalMovement(8, boundary, Directions.right, 250), ObjectType.enemy, 100);
+            GameObject ZigZagEnenmy = GameObject.CreateGameObject(Resources.enemy1, 300, 375, new DiagonalMovement(8, boundary, Directions.right, 250), ObjectType.enemy, 100);
+            GameObject player = GameObject.CreateGameObject(Resources.mytank2, 200, 150, new KeyboardMovement(15, boundary, 180), ObjectType.player, 100);
             player.SetPictureBoxSize(120,100);
             ZigZagEnenmy.SetPictureBoxSize(120,100);
             Horizontalenemy.SetPictureBoxSize(120, 100);
@@ -47,6 +47,7 @@ namespace Mygame
         private void Timer1_Tick(object sender, EventArgs e)
         {
             game.update();
+      
         }
 
         private void InitializeTimer()
@@ -57,10 +58,6 @@ namespace Mygame
             timer1.Start();
         }
 
-        enum directions
-        {
-            up,down,right,left
-        }
 
     }
 }

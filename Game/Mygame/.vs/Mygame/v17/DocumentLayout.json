@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|d:\\university\\oop\\semester project\\2023-cs-69\\game\\game\\mygame\\mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|solutionrelative:mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Mygame\\UI\\Form1.cs",
               "ToolTip": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\Mygame\\UI\\Form1.cs",
               "RelativeToolTip": "Mygame\\UI\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwDEAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T07:28:27.189Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\Mygame\\UI\\Form1.cs [Design]",
               "RelativeToolTip": "Mygame\\UI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T07:15:45.126Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-01T07:15:45.126Z"
             }
           ]
         }
