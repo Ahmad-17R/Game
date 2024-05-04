@@ -14,8 +14,9 @@ namespace GameDLL.BL
     {
         PictureBox pictureBox;
         Move controller;
+        private static GameObject ObjectInstance;
 
-        public GameObject(Image img,int left,int top, Move controller)
+        private GameObject(Image img,int left,int top, Move controller,ObjectType type)
         {
             pictureBox = new PictureBox();
             pictureBox.Image = img;
@@ -23,9 +24,21 @@ namespace GameDLL.BL
             pictureBox.Left = left;
             pictureBox.Top = top;
             this.controller = controller;
-           
+            SetObjectType(type);
         }
 
+        public static GameObject CreateGameObject(Image img, int left, int top, Move controller, ObjectType type)
+        {
+            if(type==ObjectType.player && Factorypattern.GetPlayers() < 1)
+            {
+                ObjectInstance = new GameObject(img,  left,  top,  controller,  type);
+            }
+            else if (type == ObjectType.enemy && Factorypattern.GetPlayers() < 3)
+            {
+                ObjectInstance = new GameObject(img, left, top, controller, type);
+            }
+            return ObjectInstance;
+        }
         public void update()
         {
             this.pictureBox.Location = controller.move(this.pictureBox.Location);
@@ -44,6 +57,14 @@ namespace GameDLL.BL
         public Move getController()
         {
             return controller;
+        }
+
+        public void SetObjectType(ObjectType type)
+        {
+            if (type == ObjectType.player)
+            {
+
+            }
         }
     }
 }

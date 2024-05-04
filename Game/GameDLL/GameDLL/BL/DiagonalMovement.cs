@@ -12,11 +12,11 @@ namespace GameDLL.BL
     {
         private int Speed;
         private Point boundary;
-        private string direction;
+        private Directions direction;
         private int offset;
         private int count;
   
-        public DiagonalMovement(int speed, Point boundary, string direction, int offset)
+        public DiagonalMovement(int speed, Point boundary, Directions direction, int offset)
         {
             Speed = speed;
             this.boundary = boundary;
@@ -27,7 +27,7 @@ namespace GameDLL.BL
 
         public Point move(Point location)
         {
-            if (direction == "right")
+            if (direction == Directions.right)
             {
                 if (count < 5)
                 {
@@ -40,7 +40,7 @@ namespace GameDLL.BL
                     location.Y += Speed;
                 }
             }
-            else if(direction == "left")
+            else if(direction == Directions.left)
             {
                 if (count < 5)
                 {
@@ -55,11 +55,11 @@ namespace GameDLL.BL
             }
             if (location.X+offset>=boundary.X)
             {
-                direction = "left";
+                direction = Directions.left;
             }
             else if (location.X+Speed<=0)
             {
-                direction="right";
+                direction=Directions.right;
             }
             if (count == 10) count=0;
             count++;

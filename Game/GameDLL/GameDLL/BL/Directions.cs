@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameDLL.BL
 {
-    public class CollisionDetection
+    public enum Directions
     {
-        //public bool isCollided
+        left,right, up, down
     }
 }

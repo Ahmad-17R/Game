@@ -12,10 +12,10 @@ namespace GameDLL.BL
     {
         private int Speed;
         private Point boundary;
-        private string direction;
+        private Directions direction;
         private int offset ;
 
-        public VerticalMovement(int speed, Point boundary, string direction,int offset)
+        public VerticalMovement(int speed, Point boundary, Directions direction,int offset)
         {
             Speed = speed;
             this.boundary = boundary;
@@ -27,14 +27,14 @@ namespace GameDLL.BL
         {
             if ((location.Y + offset) >= boundary.Y)
             {
-                direction = "up";
+                direction = Directions.up;
             }
             else if (location.Y - Speed <= 0)
             {
-                direction = "down";
+                direction = Directions.down;
 
             }
-            if (direction == "up")
+            if (direction == Directions.up)
             {
                 location.Y -= Speed;
             }

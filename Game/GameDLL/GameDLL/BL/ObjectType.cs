@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameDLL.BL
 {
-    public class CollisionDetection
+    public enum ObjectType
     {
-        //public bool isCollided
+        player,enemy,bullet 
     }
 }

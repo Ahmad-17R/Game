@@ -47,10 +47,13 @@
   <ItemGroup>
     <Compile Include="BL\CollisionDetection.cs" />
     <Compile Include="BL\DiagonalMovement.cs" />
+    <Compile Include="BL\Directions.cs" />
+    <Compile Include="BL\Factorypattern.cs" />
     <Compile Include="BL\Game.cs" />
     <Compile Include="BL\GameObject.cs" />
     <Compile Include="BL\HorizontalMovement.cs" />
     <Compile Include="BL\KeyboardMovement.cs" />
+    <Compile Include="BL\ObjectType.cs" />
     <Compile Include="BL\VerticalMovement.cs" />
     <Compile Include="DLLinterface\Move.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
