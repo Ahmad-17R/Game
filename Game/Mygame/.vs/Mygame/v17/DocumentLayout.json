@@ -6,7 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{63EB532E-C4B5-463B-B89A-5D2F79EA3FDC}|..\\GameDLL\\GameDLL\\GameDLL.csproj|d:\\university\\oop\\semester project\\2023-cs-69\\game\\game\\gamedll\\gamedll\\bl\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|d:\\university\\oop\\semester project\\2023-cs-69\\game\\game\\mygame\\mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{153BE9ED-96E9-4CCB-AEB7-2A4A312BBD52}|Mygame\\Mygame.csproj|solutionrelative:mygame\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
               "RelativeDocumentMoniker": "..\\GameDLL\\GameDLL\\BL\\GameObject.cs",
               "ToolTip": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\GameDLL\\GameDLL\\BL\\GameObject.cs",
               "RelativeToolTip": "..\\GameDLL\\GameDLL\\BL\\GameObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T06:27:07.649Z",
               "EditorCaption": ""
@@ -74,7 +74,8 @@
               "ToolTip": "D:\\University\\OOP\\Semester Project\\2023-CS-69\\Game\\Game\\Mygame\\Mygame\\UI\\Form1.cs [Design]",
               "RelativeToolTip": "Mygame\\UI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T07:15:45.126Z"
+              "WhenOpened": "2024-05-01T07:15:45.126Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
